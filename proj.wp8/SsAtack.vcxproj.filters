@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>17b52f90-9b33-4188-8a0e-808582bbabbc</UniqueIdentifier>
+      <Extensions>ico;bmp;dlg;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;resw;resjson</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{75a4d4c5-4978-4bf9-a391-fbbd7b2d35b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources">
+      <UniqueIdentifier>{c09e6c12-88ba-4ac4-a100-934ae83cb526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\fonts">
+      <UniqueIdentifier>{c20ecf31-94f4-4ac0-bac7-f3d6f170c765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\audio">
+      <UniqueIdentifier>{6b557910-7d8d-46fb-b713-72e7752a45c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\ApplicationIcon.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AlignmentGrid.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\IconicTileSmall.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Resources\CloseNormal.png">
+      <Filter>Assets\Resources</Filter>
+    </Image>
+    <Image Include="Assets\Resources\CloseSelected.png">
+      <Filter>Assets\Resources</Filter>
+    </Image>
+    <Image Include="Assets\Resources\HelloWorld.png">
+      <Filter>Assets\Resources</Filter>
+    </Image>
+    <Image Include="Assets\Resources\background.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Resources\baseResource.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Resources\logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Resources\PatternBg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Resources\ProgressBarBack.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Resources\ProgressBarFront.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Resources\btn\btnStartGameDown.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Resources\btn\btnStartGameNor.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\btnResultRestart.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\btnResultRestartDown.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\star.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SsAtack.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WelcomeLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PatternMatrix.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PatternSprite.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ResultLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SsAtack.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WelcomeLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PatternMatrix.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PatternSprite.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameBasic.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ResultLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\Resources\fonts\arial.ttf">
+      <Filter>Assets\Resources\fonts</Filter>
+    </Font>
+    <Font Include="Assets\Resources\fonts\Marker Felt.ttf">
+      <Filter>Assets\Resources\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\baseResource.plist">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Resources\audio\effect_bombPattern.mp3">
+      <Filter>Assets\Resources\audio</Filter>
+    </Media>
+    <Media Include="Assets\Resources\audio\effect_buttonClick.mp3">
+      <Filter>Assets\Resources\audio</Filter>
+    </Media>
+    <Media Include="Assets\Resources\audio\effect_clearPattern.mp3">
+      <Filter>Assets\Resources\audio</Filter>
+    </Media>
+    <Media Include="Assets\Resources\audio\effect_game_fail.mp3">
+      <Filter>Assets\Resources\audio</Filter>
+    </Media>
+    <Media Include="Assets\Resources\audio\effect_game_pass.mp3">
+      <Filter>Assets\Resources\audio</Filter>
+    </Media>
+    <Media Include="Assets\Resources\audio\effect_ice.mp3">
+      <Filter>Assets\Resources\audio</Filter>
+    </Media>
+    <Media Include="Assets\Resources\audio\effect_noclear.mp3">
+      <Filter>Assets\Resources\audio</Filter>
+    </Media>
+    <Media Include="Assets\Resources\audio\effect_timewarning.mp3">
+      <Filter>Assets\Resources\audio</Filter>
+    </Media>
+    <Media Include="Assets\Resources\audio\effect_unswap.mp3">
+      <Filter>Assets\Resources\audio</Filter>
+    </Media>
+    <Media Include="Assets\Resources\audio\musicByFoxSynergy.mp3">
+      <Filter>Assets\Resources\audio</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
